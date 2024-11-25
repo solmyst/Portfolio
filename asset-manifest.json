@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fb30e96c.css",
-    "main.js": "/Portfolio/static/js/main.a878ab35.js",
+    "main.css": "/Portfolio/static/css/main.ebaaa2d9.css",
+    "main.js": "/Portfolio/static/js/main.b58b3cc8.js",
     "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/Enhanced Magical Sand Art Creator-1.png": "/Portfolio/static/media/Enhanced Magical Sand Art Creator-1.d8d5508bdd02a82db0ef.png",
+    "static/media/ReactApp.png": "/Portfolio/static/media/ReactApp.324688a38db6b745a507.png",
     "index.html": "/Portfolio/index.html",
-    "main.fb30e96c.css.map": "/Portfolio/static/css/main.fb30e96c.css.map",
-    "main.a878ab35.js.map": "/Portfolio/static/js/main.a878ab35.js.map",
+    "main.ebaaa2d9.css.map": "/Portfolio/static/css/main.ebaaa2d9.css.map",
+    "main.b58b3cc8.js.map": "/Portfolio/static/js/main.b58b3cc8.js.map",
     "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb30e96c.css",
-    "static/js/main.a878ab35.js"
+    "static/css/main.ebaaa2d9.css",
+    "static/js/main.b58b3cc8.js"
   ]
 }
