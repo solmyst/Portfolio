@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3e712469.css",
-    "main.js": "/Portfolio/static/js/main.95463bb7.js",
+    "main.js": "/Portfolio/static/js/main.d17d9dc2.js",
     "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
     "static/media/Enhanced Magical Sand Art Creator-1.png": "/Portfolio/static/media/Enhanced Magical Sand Art Creator-1.d8d5508bdd02a82db0ef.png",
     "static/media/ReactApp.png": "/Portfolio/static/media/ReactApp.324688a38db6b745a507.png",
     "index.html": "/Portfolio/index.html",
     "main.3e712469.css.map": "/Portfolio/static/css/main.3e712469.css.map",
-    "main.95463bb7.js.map": "/Portfolio/static/js/main.95463bb7.js.map",
+    "main.d17d9dc2.js.map": "/Portfolio/static/js/main.d17d9dc2.js.map",
     "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e712469.css",
-    "static/js/main.95463bb7.js"
+    "static/js/main.d17d9dc2.js"
   ]
 }
