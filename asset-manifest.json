@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9a301b27.css",
-    "main.js": "/Portfolio/static/js/main.ba3b4288.js",
+    "main.js": "/Portfolio/static/js/main.89258caa.js",
     "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/1729408542692.png": "/Portfolio/static/media/1729408542692.c2359b49071cec1d4008.png",
+    "static/media/Anush_Gupta_Software_Engineering_Resume.pdf": "/Portfolio/static/media/Anush_Gupta_Software_Engineering_Resume.fd3fce4df8fa50baa0f1.pdf",
     "static/media/Enhanced Magical Sand Art Creator-1.png": "/Portfolio/static/media/Enhanced Magical Sand Art Creator-1.d8d5508bdd02a82db0ef.png",
     "static/media/ReactApp.png": "/Portfolio/static/media/ReactApp.324688a38db6b745a507.png",
     "index.html": "/Portfolio/index.html",
     "main.9a301b27.css.map": "/Portfolio/static/css/main.9a301b27.css.map",
-    "main.ba3b4288.js.map": "/Portfolio/static/js/main.ba3b4288.js.map",
+    "main.89258caa.js.map": "/Portfolio/static/js/main.89258caa.js.map",
     "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a301b27.css",
-    "static/js/main.ba3b4288.js"
+    "static/js/main.89258caa.js"
   ]
 }
