@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7ddf84b5.css",
-    "main.js": "/Portfolio/static/js/main.edd2683c.js",
+    "main.css": "/Portfolio/static/css/main.a05e8c7b.css",
+    "main.js": "/Portfolio/static/js/main.77476936.js",
     "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
     "static/media/Health Guardian.png": "/Portfolio/static/media/Health Guardian.c2359b49071cec1d4008.png",
     "static/media/AI Interview Coach.png": "/Portfolio/static/media/AI Interview Coach.db3c66bfff6aa5e0ccce.png",
@@ -11,12 +11,12 @@
     "static/media/Enhanced Magical Sand Art Creator-1.png": "/Portfolio/static/media/Enhanced Magical Sand Art Creator-1.d8d5508bdd02a82db0ef.png",
     "static/media/Task Ninja Pro.png": "/Portfolio/static/media/Task Ninja Pro.324688a38db6b745a507.png",
     "index.html": "/Portfolio/index.html",
-    "main.7ddf84b5.css.map": "/Portfolio/static/css/main.7ddf84b5.css.map",
-    "main.edd2683c.js.map": "/Portfolio/static/js/main.edd2683c.js.map",
+    "main.a05e8c7b.css.map": "/Portfolio/static/css/main.a05e8c7b.css.map",
+    "main.77476936.js.map": "/Portfolio/static/js/main.77476936.js.map",
     "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ddf84b5.css",
-    "static/js/main.edd2683c.js"
+    "static/css/main.a05e8c7b.css",
+    "static/js/main.77476936.js"
   ]
 }
