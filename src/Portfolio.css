@@ -23,16 +23,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Hide default cursor on desktop */
-@media (min-width: 768px) {
-  * {
-    cursor: none !important;
-  }
-  
-  a, button, input, textarea, select {
-    cursor: none !important;
-  }
-}
+/* Cursor styles removed for better performance */
 
 /* Enhanced Grid Pattern Background */
 .grid-pattern {
@@ -393,11 +384,6 @@ a {
 
 /* Mobile Optimizations */
 @media (max-width: 768px) {
-  /* Disable custom cursor on mobile */
-  * {
-    cursor: auto !important;
-  }
-  
   /* Optimize touch targets */
   button, a {
     min-height: 44px;
