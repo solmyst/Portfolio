@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cd60ff4c.css",
-    "main.js": "/Portfolio/static/js/main.4213ddd5.js",
-    "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/Health Guardian.png": "/Portfolio/static/media/Health Guardian.c2359b49071cec1d4008.png",
-    "static/media/AI Interview Coach.png": "/Portfolio/static/media/AI Interview Coach.db3c66bfff6aa5e0ccce.png",
-    "static/media/Trip Helper.png": "/Portfolio/static/media/Trip Helper.89e5b7688f34e1b9cc22.png",
-    "static/media/Anush_Gupta_Software_Engineering_Resume.pdf": "/Portfolio/static/media/Anush_Gupta_Software_Engineering_Resume.8e51f34b9b9c5b14ace6.pdf",
-    "static/media/Enhanced Magical Sand Art Creator-1.png": "/Portfolio/static/media/Enhanced Magical Sand Art Creator-1.d8d5508bdd02a82db0ef.png",
-    "static/media/Task Ninja Pro.png": "/Portfolio/static/media/Task Ninja Pro.324688a38db6b745a507.png",
-    "index.html": "/Portfolio/index.html",
-    "main.cd60ff4c.css.map": "/Portfolio/static/css/main.cd60ff4c.css.map",
-    "main.4213ddd5.js.map": "/Portfolio/static/js/main.4213ddd5.js.map",
-    "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/static/css/main.cd60ff4c.css",
+    "main.js": "/static/js/main.3f099e5d.js",
+    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/Health Guardian.png": "/static/media/Health Guardian.c2359b49071cec1d4008.png",
+    "static/media/AI Interview Coach.png": "/static/media/AI Interview Coach.db3c66bfff6aa5e0ccce.png",
+    "static/media/Trip Helper.png": "/static/media/Trip Helper.89e5b7688f34e1b9cc22.png",
+    "static/media/Anush_Gupta_Software_Engineering_Resume.pdf": "/static/media/Anush_Gupta_Software_Engineering_Resume.8e51f34b9b9c5b14ace6.pdf",
+    "static/media/Enhanced Magical Sand Art Creator-1.png": "/static/media/Enhanced Magical Sand Art Creator-1.d8d5508bdd02a82db0ef.png",
+    "static/media/Task Ninja Pro.png": "/static/media/Task Ninja Pro.324688a38db6b745a507.png",
+    "index.html": "/index.html",
+    "main.cd60ff4c.css.map": "/static/css/main.cd60ff4c.css.map",
+    "main.3f099e5d.js.map": "/static/js/main.3f099e5d.js.map",
+    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd60ff4c.css",
-    "static/js/main.4213ddd5.js"
+    "static/js/main.3f099e5d.js"
   ]
 }
