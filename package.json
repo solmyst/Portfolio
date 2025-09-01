@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://solmyst.github.io/Portfolio",
+  "homepage": "https://anushgupta.tech/",
   "eslintConfig": {
     "extends": [
       "react-app",
