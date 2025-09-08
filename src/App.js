@@ -13,7 +13,9 @@ import HealthGuardianImage from './assest/Health Guardian.png';
 import TaskNinjaProImage from './assest/Task Ninja Pro.png';
 import TripHelperImage from './assest/Trip Helper.png';
 // import AnimeDuniaImage from './assest/anime dunia.png'; // Commented out with the project
-import ReactApppdf from './assest/Anush_Gupta_Software_Engineering_Resume.pdf';
+
+// Resume PDF is now served from public folder
+const ReactApppdf = '/Anush_Gupta_Software_Engineering_Resume.pdf';
 
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger);
@@ -55,7 +57,7 @@ const SimpleStarsAnimation = () => {
 
       stars.forEach(star => {
         star.opacity = 0.2 + Math.sin(Date.now() * star.twinkleSpeed + star.phase) * 0.3;
-        
+
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
         ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`;
@@ -181,10 +183,10 @@ const ModernHero = () => {
     <section ref={heroRef} className="min-h-screen w-full flex items-center justify-center relative overflow-hidden">
       {/* Simplified Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900" />
-      
+
       {/* Simple Stars Animation */}
       <SimpleStarsAnimation />
-      
+
       {/* Simplified Grid Overlay */}
       <div className="absolute inset-0 opacity-5">
         <div className="grid-pattern" />
@@ -219,14 +221,14 @@ const ModernHero = () => {
             </span>
           </button>
 
-         <a
-  href="https://drive.google.com/file/d/18zozP6xXi940m8i99zVl4RNjaY051mlD/view?usp=sharing"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="group px-8 py-4 border-2 border-slate-300/40 text-slate-200 font-semibold rounded-full hover:border-slate-200/60 hover:bg-slate-200/10 transition-all duration-300 backdrop-blur-sm shadow-lg"
->
-  View Resume
-</a>
+          <a
+            href="https://drive.google.com/file/d/18zozP6xXi940m8i99zVl4RNjaY051mlD/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group px-8 py-4 border-2 border-slate-300/40 text-slate-200 font-semibold rounded-full hover:border-slate-200/60 hover:bg-slate-200/10 transition-all duration-300 backdrop-blur-sm shadow-lg"
+          >
+            View Resume
+          </a>
         </div>
 
         {/* Scroll Indicator */}
@@ -475,7 +477,7 @@ const ProjectsSection = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            A showcase of innovative solutions, creative experiments, and impactful applications 
+            A showcase of innovative solutions, creative experiments, and impactful applications
             that demonstrate my passion for technology and problem-solving
           </p>
         </div>
@@ -505,7 +507,7 @@ const ProjectsSection = () => {
                   />
                 ) : (
                   <div className="w-full h-full transition-transform duration-700 group-hover:scale-110">
-                    <PlaceholderImage 
+                    <PlaceholderImage
                       title={project.title}
                       primaryColor={project.placeholderColors[0]}
                       secondaryColor={project.placeholderColors[1]}
@@ -513,7 +515,7 @@ const ProjectsSection = () => {
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                
+
                 {/* Hover Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-blue-500/10 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
@@ -601,7 +603,7 @@ const ProjectsSection = () => {
         {/* View All Projects Button */}
         {!showAllProjects && projects.length > 6 && (
           <div className="text-center mt-16">
-            <button 
+            <button
               onClick={() => setShowAllProjects(true)}
               className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-slate-800 to-slate-700 text-white font-semibold rounded-full border border-slate-600/50 hover:border-cyan-400/50 hover:from-slate-700 hover:to-slate-600 transition-all duration-300 transform hover:scale-105"
             >
@@ -614,7 +616,7 @@ const ProjectsSection = () => {
         {/* Show Less Button */}
         {showAllProjects && (
           <div className="text-center mt-16">
-            <button 
+            <button
               onClick={() => setShowAllProjects(false)}
               className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-slate-700 to-slate-600 text-white font-semibold rounded-full border border-slate-500/50 hover:border-cyan-400/50 hover:from-slate-600 hover:to-slate-500 transition-all duration-300 transform hover:scale-105"
             >
@@ -627,37 +629,37 @@ const ProjectsSection = () => {
 
       {/* Project Modal */}
       {selectedProject && (
-        <div 
+        <div
           className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
           onClick={() => setSelectedProject(null)}
         >
-          <div 
+          <div
             className="bg-slate-800 rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="p-8">
               <div className="flex justify-between items-start mb-6">
                 <h3 className="text-3xl font-bold text-white">{selectedProject.title}</h3>
-                <button 
+                <button
                   onClick={() => setSelectedProject(null)}
                   className="p-2 hover:bg-slate-700 rounded-full transition-colors"
                 >
                   <X className="w-6 h-6 text-gray-400" />
                 </button>
               </div>
-              
+
               {selectedProject.hasImage && (
-                <img 
-                  src={selectedProject.image} 
+                <img
+                  src={selectedProject.image}
                   alt={selectedProject.title}
                   className="w-full h-64 object-cover rounded-xl mb-6"
                 />
               )}
-              
+
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 {selectedProject.description}
               </p>
-              
+
               <div className="flex flex-wrap gap-2 mb-6">
                 {selectedProject.tech.map((tech, i) => (
                   <span key={i} className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">
@@ -665,7 +667,7 @@ const ProjectsSection = () => {
                   </span>
                 ))}
               </div>
-              
+
               <div className="flex space-x-4">
                 {selectedProject.link && (
                   <a
@@ -1197,12 +1199,12 @@ const ContactSection = () => {
 
           <div className="text-center">
             <a
-              href={ReactApppdf}
-              download
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-500 hover:to-pink-500 transition-all duration-300 transform hover:scale-105"
+              href="https://drive.google.com/file/d/18zozP6xXi940m8i99zVl4RNjaY051mlD/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group px-8 py-4 border-2 border-slate-300/40 text-slate-200 font-semibold rounded-full hover:border-slate-200/60 hover:bg-slate-200/10 transition-all duration-300 backdrop-blur-sm shadow-lg"
             >
-              <FileText className="w-5 h-5 mr-2" />
-              Download Resume
+              View Resume
             </a>
           </div>
         </div>
@@ -1338,7 +1340,7 @@ const App = () => {
             <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent mx-auto mb-6"></div>
 
             <p className="text-slate-500 text-sm">
-              © 2024 Anush Gupta. Crafted with passion and precision.
+              © 2025 Anush Gupta. Crafted with passion and precision.
             </p>
           </div>
         </div>
