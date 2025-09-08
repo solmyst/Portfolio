@@ -219,13 +219,14 @@ const ModernHero = () => {
             </span>
           </button>
 
-          <a
-            href={ReactApppdf}
-            download
-            className="group px-8 py-4 border-2 border-slate-300/40 text-slate-200 font-semibold rounded-full hover:border-slate-200/60 hover:bg-slate-200/10 transition-all duration-300 backdrop-blur-sm shadow-lg"
-          >
-            Download Resume
-          </a>
+         <a
+  href="https://drive.google.com/file/d/18zozP6xXi940m8i99zVl4RNjaY051mlD/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group px-8 py-4 border-2 border-slate-300/40 text-slate-200 font-semibold rounded-full hover:border-slate-200/60 hover:bg-slate-200/10 transition-all duration-300 backdrop-blur-sm shadow-lg"
+>
+  View Resume
+</a>
         </div>
 
         {/* Scroll Indicator */}
