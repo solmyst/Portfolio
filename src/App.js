@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
-  Github, Linkedin, Mail, FileText, ExternalLink, ArrowRight,
+  Github, Linkedin, Mail, ExternalLink, ArrowRight,
   Eye, Heart, Star, Code, Palette, Database, Terminal,
   Award, Users, Target, ChevronDown, Menu, X
 } from 'lucide-react';
@@ -15,7 +15,7 @@ import TripHelperImage from './assest/Trip Helper.png';
 // import AnimeDuniaImage from './assest/anime dunia.png'; // Commented out with the project
 
 // Resume PDF is now served from public folder
-const ReactApppdf = '/Anush_Gupta_Software_Engineering_Resume.pdf';
+// const ReactApppdf = '/Anush_Gupta_Software_Engineering_Resume.pdf';
 
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger);
@@ -309,7 +309,7 @@ const ProjectsSection = () => {
       title: "AI Resume Tailor",
       description: "An intelligent resume optimization tool powered by AI that analyzes job descriptions and tailors resumes accordingly. Features ATS optimization, keyword matching, and personalized suggestions for better job application success.",
       tech: ["Python", "AI/ML", "Natural Language Processing", "Flask", "OpenAI API"],
-      link: "https://github.com/solmyst/ai-resume-tailor",
+      link: "https://solmyst.github.io/ai-resume-tailor/",
       github: "https://github.com/solmyst/ai-resume-tailor",
       views: "1.2K",
       likes: "89",
@@ -323,7 +323,7 @@ const ProjectsSection = () => {
       description: "An AI-powered interview preparation platform that provides personalized coaching, mock interviews, and real-time feedback. Helps candidates practice and improve their interview skills with intelligent analysis.",
       image: AIInterviewCoachImage,
       tech: ["Python", "Machine Learning", "Speech Recognition", "React", "AI Analytics"],
-      link: "https://github.com/solmyst/AI-Powered-Interview-Coaching",
+      link: "https://solmyst.github.io/AI-Powered-Interview-Coaching",
       github: "https://github.com/solmyst/AI-Powered-Interview-Coaching",
       views: "2.3K",
       likes: "167",
